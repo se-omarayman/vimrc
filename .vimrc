@@ -17,15 +17,13 @@ noremap L $
 noremap H ^
 noremap gj o<Esc>
 noremap gk O<Esc>
-noremap t <C-r>
+" noremap t <C-r>
 set clipboard=unnamed
-nmap <Leader>c ciw
-nmap <Leader>d diw
-nmap <Leader>y yiw
+" nmap <Leader>c ciw
+" nmap <Leader>d diw
+" nmap <Leader>y yiw
 nnoremap <leader>a ggVG
 nnoremap x "_x
-onoremap L $
-onoremap H ^
 onoremap ( i(
 onoremap " i"
 onoremap { i{
@@ -34,10 +32,11 @@ onoremap ' i'
 xnoremap p pgvy
 nnoremap U J
 noremap <leader>n :noh<CR>
-noremap <leader>sf vaBo0
+" noremap <leader>sf vaBo0
 noremap J gT
 noremap K gt
-
+nmap <C-g> gb
+vnoremap <C-g> gb
 set hlsearch
 nnoremap <esc> :noh<CR>
 " nnoremap <esc>^[ <esc>^[
